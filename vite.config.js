@@ -3,13 +3,14 @@ import { resolve } from 'node:path'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  root: './src',
+  envDir: resolve(),
+  root: resolve('src'),
   server: {
     port: 8080
   },
   resolve: {
     alias: {
-      '@': resolve('./src')
+      '@': resolve('src')
     }
   },
   plugins: [
