@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import '@/sass/styles.sass'
 
 import AppComponent from '@/components/app'
 
