@@ -15,5 +15,11 @@ export default defineConfig({
   },
   plugins: [
     vue()
-  ]
+  ],
+  test: {
+    coverage: {
+      enabled: true,
+      reportsDirectory: resolve('coverage')
+    }
+  }
 })
