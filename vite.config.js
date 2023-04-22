@@ -17,9 +17,15 @@ export default defineConfig({
     vue()
   ],
   test: {
+    root: resolve(),
     coverage: {
       enabled: true,
       reportsDirectory: resolve('coverage')
+    },
+    resolve: {
+      alias: {
+        '@': resolve('src')
+      }
     }
   }
 })
