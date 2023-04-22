@@ -14,7 +14,7 @@ function login () {
 </script>
 
 <template>
-  <div class="flex flex-col justify-center items-center min-h-screen">
+  <div class="flex flex-col justify-center items-center">
     <button
       class="uppercase px-4 py-2 rounded-md bg-cyan-700 text-lg text-white"
       @click="login()"

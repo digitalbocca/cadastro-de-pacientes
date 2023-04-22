@@ -1,3 +1,11 @@
+<script setup>
+
+import PageLayout from '@/components/page-layout'
+
+</script>
+
 <template>
-  <router-view/>
+  <PageLayout>
+    <router-view/>
+  </PageLayout>
 </template>
