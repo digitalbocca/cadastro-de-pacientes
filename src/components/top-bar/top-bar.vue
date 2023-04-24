@@ -15,9 +15,7 @@
       </h1>
     </div>
     <div class="top-bar__actions">
-      <button class="">
-        + Novo
-      </button>
+      <!-- Botões do Menu -->
     </div>
   </div>
 </template>
