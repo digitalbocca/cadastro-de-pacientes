@@ -22,6 +22,5 @@ import Footer from '@/components/footer'
 
   &__content
     @apply grow
-    @apply bg-slate-400
 
 </style>
