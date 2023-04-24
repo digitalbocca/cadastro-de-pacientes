@@ -16,6 +16,9 @@ export default defineConfig({
   plugins: [
     vue()
   ],
+  build: {
+    outDir: resolve('dist')
+  },
   test: {
     root: resolve(),
     coverage: {
