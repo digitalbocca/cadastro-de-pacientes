@@ -41,7 +41,7 @@ A página de login simula o processo de autenticação gravando um usuário na s
 
 > PONTO DE ATENÇÃO: Como não há persistência no login ao acessar a página de login pela url a SPA é recarregada com os valores padrão (usuário vazio).
 
-## HABILIDADES DEMONSTADAS
+## HABILIDADES DEMONSTRADAS
 
 O objetivo deste projeto foi demonstrar algumas habilidades no menor tempo possível. Apesar de sair um pouco do proposto no enunciado acabei optando por não repetir implementações.
 
