@@ -18,6 +18,16 @@ Ambiente `node 18.16+`
 npm test
 ```
 
+## ALGORITMO DE VALIDAÇÃO CNS
+
+O algoritmo de validação do CNS está na pasta utils acompanhado do seu teste validando vários casos.
+
+Para rodar isoladamente o teste do CNS:
+
+```bash
+npm test valida-cns
+```
+
 ## SISTEMA DE LOGIN (SIMULADO)
 
 Antes de cada mudança na rota o roteador verifica a informação na store do usuário e aplica as regras definidas para as rotas protegidas.
@@ -50,5 +60,9 @@ O objetivo deste projeto foi demonstrar algumas habilidades no menor tempo poss�
 - Arquivos estáticos na pasta `public`.
 - Preprocessador SASS (SASS E SCSS).
 - Deploy da aplicação.
+- Algoritmo de validação CNS e seu teste.
 
 ## LINKS
+
+- LIVE PREVIEW [https://cadastro-de-pacientes.vercel.app/](https://cadastro-de-pacientes.vercel.app/)
+- GITHUB [https://github.com/digitalbocca/cadastro-de-pacientes](https://github.com/digitalbocca/cadastro-de-pacientes)
